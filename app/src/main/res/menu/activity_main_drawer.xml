@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Filter by features:">
+        <menu>
+            <item
+                android:id="@+id/soccer"
+                android:title="Soccer Fields"
+                android:onClick="toggleSoccer"/>
+            <item
+                android:id="@+id/skating"
+                android:title="Skating Rinks"
+                android:onClick="toggleSkating"/>
+            <item
+                android:id="@+id/baseball"
+                android:title="Baseball Diamonds"
+                android:onClick="toggleBaseball"/>
+            <item
+                android:id="@+id/basketball"
+                android:title="Basketball Courts"
+                android:onClick="toggleBasketball"/>
+            <item
+                android:id="@+id/splash"
+                android:title="Splash Parks"
+                android:onClick="toggleSplash"/>
+        </menu>
+    </item>
+
+
+    <item android:title="Trails">
+        <menu>
+            <item
+                android:id="@+id/trail1"
+                android:icon="@drawable/ic_trail"
+                android:title="@string/menu_trail1" />
+            <item
+                android:id="@+id/trail2"
+                android:icon="@drawable/ic_trail"
+                android:title="@string/menu_trail2" />
+            <item
+                android:id="@+id/trail3"
+                android:icon="@drawable/ic_trail"
+                android:title="@string/menu_trail3" />
+            <item
+                android:id="@+id/trail4"
+                android:icon="@drawable/ic_trail"
+                android:title="@string/menu_trail4" />
+            <item
+                android:id="@+id/trail5"
+                android:icon="@drawable/ic_trail"
+                android:title="@string/menu_trail5" />
+            <item
+                android:id="@+id/trail6"
+                android:icon="@drawable/ic_trail"
+                android:title="@string/menu_trail6" />
+            <item
+                android:id="@+id/trail7"
+                android:icon="@drawable/ic_trail"
+                android:title="@string/menu_trail7" />
+        </menu>
+    </item>
+
+    <item android:title="@string/parks">
+        <menu>
+            <item
+                android:id="@+id/park1"
+                android:icon="@drawable/ic_park"
+                android:title="@string/menu_park1" />
+            <item
+                android:id="@+id/park2"
+                android:icon="@drawable/ic_park"
+                android:title="@string/menu_park2" />
+            <item
+                android:id="@+id/park3"
+                android:icon="@drawable/ic_park"
+                android:title="@string/menu_park3" />
+            <item
+                android:id="@+id/park4"
+                android:icon="@drawable/ic_park"
+                android:title="@string/menu_park4" />
+            <item
+                android:id="@+id/park5"
+                android:icon="@drawable/ic_park"
+                android:title="@string/menu_park5" />
+            <item
+                android:id="@+id/park6"
+                android:icon="@drawable/ic_park"
+                android:title="@string/menu_park6" />
+            <item
+                android:id="@+id/park7"
+                android:icon="@drawable/ic_park"
+                android:title="@string/menu_park7" />
+            <item
+                android:id="@+id/park8"
+                android:icon="@drawable/ic_park"
+                android:title="@string/menu_park8" />
+            <item
+                android:id="@+id/park9"
+                android:icon="@drawable/ic_park"
+                android:title="@string/menu_park9" />
+            <item
+                android:id="@+id/park10"
+                android:icon="@drawable/ic_park"
+                android:title="@string/menu_park10" />
+            <item
+                android:id="@+id/park11"
+                android:icon="@drawable/ic_park"
+                android:title="@string/menu_park11" />
+            <item
+                android:id="@+id/park12"
+                android:icon="@drawable/ic_park"
+                android:title="@string/menu_park12" />
+            <item
+                android:id="@+id/park13"
+                android:icon="@drawable/ic_park"
+                android:title="@string/menu_park13" />
+            <item
+                android:id="@+id/park14"
+                android:icon="@drawable/ic_park"
+                android:title="@string/menu_park14" />
+            <item
+                android:id="@+id/park15"
+                android:icon="@drawable/ic_park"
+                android:title="@string/menu_park15" />
+            <item
+                android:id="@+id/park16"
+                android:icon="@drawable/ic_park"
+                android:title="@string/menu_park16" />
+            <item
+                android:id="@+id/park17"
+                android:icon="@drawable/ic_park"
+                android:title="@string/menu_park17" />
+            <item
+                android:id="@+id/park18"
+                android:icon="@drawable/ic_park"
+                android:title="@string/menu_park18" />
+            <item
+                android:id="@+id/park19"
+                android:icon="@drawable/ic_park"
+                android:title="@string/menu_park19" />
+            <item
+                android:id="@+id/park20"
+                android:icon="@drawable/ic_park"
+                android:title="@string/menu_park20" />
+            <item
+                android:id="@+id/park21"
+                android:icon="@drawable/ic_park"
+                android:title="@string/menu_park21" />
+        </menu>
+    </item>
+
+</menu>

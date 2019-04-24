@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Aurora Parks and Trails</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Parks, Trails and Activities</string>
+    <string name="nav_header_subtitle">Town of Aurora</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_trail1">Holland River Trail (Nokiidaa Trail)</string>
+    <string name="menu_trail2">Klaus Wehrenberg Trail</string>
+    <string name="menu_trail3">Lakeview Trail System</string>
+    <string name="menu_trail4">McKenzie Marsh Trail</string>
+    <string name="menu_trail5">Municipal Trails</string>
+    <string name="menu_trail6">Tim Jones Trail and Arboretum</string>
+    <string name="menu_trail7">Willow Farm Valley Trail System</string>
+    <string name="menu_park1">Ada Johnson Park</string>
+    <string name="menu_park2">Atkinson Park</string>
+    <string name="menu_park3">Case Woodlot</string>
+    <string name="menu_park4">Confederation Park</string>
+    <string name="menu_park5">Copland Park</string>
+    <string name="menu_park6">Craddock Park</string>
+    <string name="menu_park7">Elizabeth Hader Park</string>
+    <string name="menu_park8">Fleury Park</string>
+    <string name="menu_park9">Hickson Park</string>
+    <string name="menu_park10">Highland Field Park</string>
+    <string name="menu_park11">James Lloyd Park</string>
+    <string name="menu_park12">Lambert Willson Park</string>
+    <string name="menu_park13">Machell Park</string>
+    <string name="menu_park14">Trent Park</string>
+    <string name="menu_park15">Norm Weller Park</string>
+    <string name="menu_park16">Sheppards Bush</string>
+    <string name="menu_park17">Stewart Burnett Park</string>
+    <string name="menu_park18">Summit Park</string>
+    <string name="menu_park19">Thomas Coates Park</string>
+    <string name="menu_park20">Town Park</string>
+    <string name="menu_park21">Vandorf Woodlot</string>
+    <string name="parks">Parks</string>
+    <string name="title_activity_display_info">DisplayInfo</string>
+    <string name="title_activity_create_wildlife_sighting">CreateWildlifeSighting</string>
+    <string name="title_activity_create_sighting">createSighting</string>
+</resources>

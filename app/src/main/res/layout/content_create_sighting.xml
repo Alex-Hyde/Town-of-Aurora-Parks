@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="25dp"
+    android:paddingTop="25dp"
+    android:paddingRight="25dp"
+    android:paddingBottom="25dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".createSighting"
+    tools:showIn="@layout/activity_create_sighting">
+
+    <Button
+        android:id="@+id/redfox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="selectAnimal"
+        android:text="Red Fox" />
+    <Button
+        android:id="@+id/coyote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/redfox"
+        android:onClick="selectAnimal"
+        android:text="Coyote" />
+    <Button
+        android:id="@+id/chipmunk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/coyote"
+        android:onClick="selectAnimal"
+        android:text="Chipmunk" />
+    <Button
+        android:id="@+id/blacksquirrel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chipmunk"
+        android:onClick="selectAnimal"
+        android:text="Black Squirrel" />
+    <Button
+        android:id="@+id/greysquirrel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blacksquirrel"
+        android:onClick="selectAnimal"
+        android:text="Grey Squirrel" />
+    <Button
+        android:id="@+id/pileatedwoodpecker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/greysquirrel"
+        android:onClick="selectAnimal"
+        android:text="Pileated Woodpecker" />
+    <Button
+        android:id="@+id/bluejay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pileatedwoodpecker"
+        android:onClick="selectAnimal"
+        android:text="Blue Jay" />
+    <Button
+        android:id="@+id/cardinal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bluejay"
+        android:onClick="selectAnimal"
+        android:text="Cardinal" />
+    <Button
+        android:id="@+id/goldfinch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardinal"
+        android:onClick="selectAnimal"
+        android:text="Gold Finch" />
+    <Button
+        android:id="@+id/redwingblackbird"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/goldfinch"
+        android:onClick="selectAnimal"
+        android:text="Red Wing Blackbird" />
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/redwingblackbird"
+        android:onClick="selectAnimal"
+        android:text="Cancel" />
+</RelativeLayout>
